@@ -1,3 +1,13 @@
+import { HeaderLogo } from "@/component/header/logo.component";
+
 export default function Home() {
-  return <h1>Welcome to My Next.js Website</h1>;
+  return (
+    <>
+      <header>
+        <HeaderLogo></HeaderLogo>
+      </header>
+      <div></div>
+      <footer></footer>
+    </>
+  );
 }

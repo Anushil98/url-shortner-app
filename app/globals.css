@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+  background-color: #171717;
+  border-bottom: 10px whitesmoke;
+  max-height: 20%;
+}
