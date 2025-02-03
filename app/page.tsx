@@ -1,3 +1,4 @@
+import BannerCarousel from "@/component/banner/BannerCarousel.component";
 import { HeaderLogo } from "@/component/header/logo.component";
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
       <header>
         <HeaderLogo></HeaderLogo>
       </header>
-      <main></main>
+      <main>
+        <BannerCarousel></BannerCarousel>
+      </main>
       <footer></footer>
     </>
   );

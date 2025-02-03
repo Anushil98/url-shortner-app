@@ -61,7 +61,6 @@ footer {
   padding: 0 10px 0 10px;
 }
 
-
 .carousel {
   position: relative;
   width: 100%;
@@ -86,7 +85,21 @@ footer {
   font-size: 24px;
   color: white;
   font-weight: bold;
-  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.center {
+  transform: translateX(-100%);
+  /* transition: all 1s; */
+}
+
+.slide.left {
+  transform: translateX(-200%);
+  transition: all 1s;
+}
+
+.slide.right {
+  transform: translateX(0%);
+  transition: all 1s;
 }
 
 button {
